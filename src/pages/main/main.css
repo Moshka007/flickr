@@ -1,0 +1,16 @@
+.content {
+    background-color: rgb(232, 252, 248);
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+
+}
+
+.content-col {
+    width: 95%;
+    margin: 0 auto; 
+}
+
+.not-found-text {
+    font-size: 2vw;
+    opacity: .5;
+}

@@ -1,0 +1,10 @@
+.header {
+    background: #BBBBBB;
+    height: 3em;
+}
+
+.user-icon {
+    margin-left: auto;
+    padding-right: 10px;
+    cursor: pointer;
+}
