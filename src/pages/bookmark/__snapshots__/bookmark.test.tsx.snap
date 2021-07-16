@@ -14,12 +14,17 @@ Object {
         >
           <div
             class="card"
+            style="height: 100%;"
           >
-            <img
-              class="card-img-top"
-              src="#"
-              style="padding: 1.5em 1em 0px 1em;"
-            />
+            <div
+              style="height: calc(100% - 6.5em);"
+            >
+              <img
+                class="card-img-top"
+                src="#"
+                style="height: 100%; width: 100%; padding: 1.5em 1em 0px 1em; object-fit: cover;"
+              />
+            </div>
             <div
               class="card-body"
             >
@@ -38,12 +43,17 @@ Object {
         >
           <div
             class="card"
+            style="height: 100%;"
           >
-            <img
-              class="card-img-top"
-              src="#"
-              style="padding: 1.5em 1em 0px 1em;"
-            />
+            <div
+              style="height: calc(100% - 6.5em);"
+            >
+              <img
+                class="card-img-top"
+                src="#"
+                style="height: 100%; width: 100%; padding: 1.5em 1em 0px 1em; object-fit: cover;"
+              />
+            </div>
             <div
               class="card-body"
             >
@@ -70,12 +80,17 @@ Object {
       >
         <div
           class="card"
+          style="height: 100%;"
         >
-          <img
-            class="card-img-top"
-            src="#"
-            style="padding: 1.5em 1em 0px 1em;"
-          />
+          <div
+            style="height: calc(100% - 6.5em);"
+          >
+            <img
+              class="card-img-top"
+              src="#"
+              style="height: 100%; width: 100%; padding: 1.5em 1em 0px 1em; object-fit: cover;"
+            />
+          </div>
           <div
             class="card-body"
           >
@@ -94,12 +109,17 @@ Object {
       >
         <div
           class="card"
+          style="height: 100%;"
         >
-          <img
-            class="card-img-top"
-            src="#"
-            style="padding: 1.5em 1em 0px 1em;"
-          />
+          <div
+            style="height: calc(100% - 6.5em);"
+          >
+            <img
+              class="card-img-top"
+              src="#"
+              style="height: 100%; width: 100%; padding: 1.5em 1em 0px 1em; object-fit: cover;"
+            />
+          </div>
           <div
             class="card-body"
           >

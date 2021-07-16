@@ -27,7 +27,7 @@ const Pages: React.FC<PagesProps> = (props) => {
 
     return (
         <div className="div">
-            <Pagination className="ml-auto">
+            <Pagination className="ml-auto" style={{fontSize: '0.85rem'}}>
             <Pagination.Prev 
                 onClick={paginationPrev}>
                 {'<'} Back

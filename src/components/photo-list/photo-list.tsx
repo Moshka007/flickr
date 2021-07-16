@@ -14,7 +14,7 @@ const PhotoList: React.FC<PhotoListProps> = (props) => {
     const photo = useContext(Context);
 
     return (
-        <Row className="photo-list" style={{overflowY: 'scroll', overflowX: 'hidden'}}>
+        <Row className="photo-list">
             { 
                 photo.getPhoto.length !== 0 &&
                 photo.getPhoto.map(el => {

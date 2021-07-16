@@ -10,7 +10,7 @@ interface PhotoListItemProps {
 }
 
 const PhotoListItem: React.FC<PhotoListItemProps> = (props) => {
-
+    
     function clickAddHandler(id: number, url_s: string, tags: string[]): void {
         let bookmarkArray: { id: number, url_s: string, tags: string[] }[] = JSON.parse(localStorage.getItem('bookmark') || '[]');
         const index: number = bookmarkArray.findIndex((el) => el.id === id);
@@ -30,9 +30,12 @@ const PhotoListItem: React.FC<PhotoListItemProps> = (props) => {
     }
 
     return (
-        <Col md={4} className="pt-5">
-            <Card>
-                <Card.Img style={{ padding: '1em', paddingTop: '1.5em', paddingBottom: '0px' }} variant="top" src={props.url} />
+        <Col key={props.id} md={4} className="pt-5">
+            <Card style={{height: '100%'}}>
+                <div style={{height: 'calc(100% - 6.5em)'}}>
+                <Card.Img style={{height: '100%', width: '100%', padding: '1em', paddingTop: '1.5em', paddingBottom: '0px', objectFit: 'cover' }} variant="top" src={props.url} />
+                </div>
+                
                 <Card.Body>
                     {
                         props.bookMark ?

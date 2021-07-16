@@ -10,6 +10,7 @@ Object {
       >
         <ul
           class="ml-auto pagination"
+          style="font-size: 0.85rem;"
         >
           <li
             class="page-item"
@@ -77,6 +78,7 @@ Object {
     >
       <ul
         class="ml-auto pagination"
+        style="font-size: 0.85rem;"
       >
         <li
           class="page-item"

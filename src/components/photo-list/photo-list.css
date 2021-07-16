@@ -1,3 +1,6 @@
 .photo-list {
     height: calc(100vh - 16em);
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    width: calc(100% + 1em);
 }

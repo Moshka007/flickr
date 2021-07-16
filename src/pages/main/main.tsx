@@ -19,7 +19,6 @@ const Main: React.FC = observer(() => {
     const [bookMarkArr, setBookMarkArr] = useState<{ id: number, url_s: string, tags: string[] }[]>(JSON.parse(localStorage.getItem('bookmark')|| '[]'));
     const [bookMark, setBookMark] = useState<boolean>(false);
     const [searchTerm, setSearchTerm] = useState<string>('');
-    // const [result, setResult] = useState<object[]>([]);
     const [isSearching, setIssSearching] = useState<boolean>(false);
     const [page, setPage] = useState<number>(1);
 
@@ -52,7 +51,6 @@ const Main: React.FC = observer(() => {
 
     }, [page])
 
-    console.log(React.version)
     return (
         <div className="content">
             <Col className="side-bar-col p-0">

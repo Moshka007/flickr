@@ -7,14 +7,12 @@ Object {
     <div>
       <div
         class="photo-list row"
-        style="overflow-y: scroll; overflow-x: hidden;"
       />
     </div>
   </body>,
   "container": <div>
     <div
       class="photo-list row"
-      style="overflow-y: scroll; overflow-x: hidden;"
     />
   </div>,
   "debug": [Function],

@@ -11,11 +11,11 @@ interface SideBarProps {
 
 const SideBar: React.FC<SideBarProps> = props => {
 
-    const changeBookMarkCloud = () => {
+    function changeBookMarkCloud():void {
         props.setBookMark(false);
     }
 
-    const changeBookMarkBook = () => {
+    function changeBookMarkBook():void {
         props.setBookMark(true);
     }
     return (
